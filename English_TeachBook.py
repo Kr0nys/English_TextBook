@@ -18,7 +18,8 @@ class MainMenu:
 
     def main_menu(self):
         window.title("Главное меню")
-        window.geometry("700x1000+500+0")
+        
+        window.geometry("700x1024+500+0")
         Label(self.canvas, text="Topics for review", font=("Arial Bold", 20), background='#FFDEAD').place(x=20, y=10)
         Button(self.canvas, text="Unit 1", command=lambda: self.start_theme("1"), bd=1, bg='#D2B48C', width=20,
                font=("Times New Roman", 12), overrelief="ridge", activebackground="#F5DEB3").place(x=20, y=60)
