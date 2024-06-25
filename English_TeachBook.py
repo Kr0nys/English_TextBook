@@ -163,7 +163,7 @@ class TeachBook:
         test_file = f'{abs_path_files}txt{path.sep}Tester{path.sep}{self.theme}.txt'
         if not path.exists(test_file):
             messagebox.showerror("Внимание!", "Файл с тестированием отсутствует!")
-            return  # Stay in TeachBook
+            return
         destroy_canvas(self.canvas)
         TestApp(self.theme)
 
@@ -356,7 +356,7 @@ class TestApp:
             lines = file.readlines()
             current_questions = []
             current_answers = []
-            current_title = None  # Для хранения текущего названия блока
+            current_title = None
             for line in lines:
                 line = line.strip()
                 if line.startswith("Название:"):
@@ -365,7 +365,7 @@ class TestApp:
                     current_questions.append({"question": line[len("Вопрос:"):].strip(), "options": []})
                 elif line.startswith("Ответ:"):
                     current_answers.append(line[len("Ответ:"):].strip().lower())
-                elif line == "Next":
+                elif line == "Следующий":
                     if current_questions and current_answers and current_title:
                         self.questions_blocks.append(current_questions)
                         self.answers_blocks.append(current_answers)
