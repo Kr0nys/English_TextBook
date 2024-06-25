@@ -328,7 +328,7 @@ class TestApp:
         self.answers_blocks = []
         self.user_answers = []
         self.scores = []
-        self.block_titles = []  # Хранение названий блоков
+        self.block_titles = []
         self.load_questions_from_file(f'{abs_path_files}txt{path.sep}TestApp{path.sep}{self.theme}.txt')
         self.init_ui()
         self.total_score = 0
