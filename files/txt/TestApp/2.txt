@@ -11,17 +11,17 @@
 Ответ: heart
 Вопрос: Some languages, like Russian for _______, don't have words for 'a', 'an' and 'the'.
 Ответ: instance
-Next
+Следующий
 Название: Write a phrasal verb in the correct dorm to replace the words in bold. The first letter of this word is given to help you.
 Вопрос: Simon r____ ______ the wrong answer and wrote the right one. (removed with a rubber)
-Ответ: ubbed out
+Ответ: ubbedout
 Вопрос: Why did you r____ ______ that piece of paper? (tear into pieces)
-Ответ: ip up
+Ответ: ipup
 Вопрос: You should l____ ______ words you don't know in a dictionary. (find information about)
-Ответ: ook up
+Ответ: ookup
 Вопрос: Carol, will you r____ ______ your poem to the class, please? (say out loud)
-Ответ: ead out
-Next
+Ответ: eadout
+Следующий
 Название: Complete by changing the form of the word in capitals.
 Вопрос: What's the name of Dave's driving ______ ?     INSTRUCT
 Ответ: instructor
